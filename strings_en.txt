@@ -1,0 +1,67 @@
+#ui_developer_console : "Console"
+#ui_developer_submit : "Submit!"
+#ui_developer_close : "X" // the 'X' icon is actually an X.
+#ui_developer_deftext : "" // default text in the textbar
+#ui_directx_crash1 : "Uh-oh! It seems SourceUI has crashed." // when the map fails to load or sourceui crashes
+#ui_directx_crash2 : "Would you like to run Counter-Strike: Source in regular mode?"
+#ui_directx_engineversion : "#engineversion" // the engines forces this string
+#ui_directx_clientversion : "#client_strings_version" // this is defined in the gameres.dll
+#ui_menu_play : "Play!"
+#ui_menu_options : "Options"
+#ui_menu_developer : "Developer Options" // audio/video stress test, dev console, and launch regular here
+#ui_menu_connect : "Connect to server..."
+#ui_playmenu_newgame : "New Game"
+#ui_playmenu_launchds : "New Dedicated Server" // launches srcds if available. this is disabled by default, turn it on in dev options.
+#ui_playmenu_botgame : "New Game with Bots" // launches a server with bots only
+#ui_playmenu_langame : "New Game to LAN" // opens a server to LAN using sv_lan 1 and port 27016
+#ui_playmenu_connectmenu : "Server Browser"
+#ui_playmenu_directconnectmenu : "Connect Directly To a Server"
+#ui_playmenu_newgame_mapstring : "Map:"
+#ui_playmenu_newgame_mapbox : "de_dust2"
+#ui_playmenu_newgame_basic : "Basic"
+#ui_playmenu_newgame_options : "Options" // all of these are carried over to other kinds of 'New Game", so they aren't re-referenced.
+#ui_playmenu_newgame_options_timepermap : "Time Per Map"
+#ui_playmenu_newgame_options_winlimit : "Win Limit"
+#ui_playmenu_newgame_options_roundlimit : "Round Limit"
+#ui_playmenu_newgame_options_roundtime : "Round Time"
+#ui_playmenu_newgame_options_freezetime : "Freeze Time"
+#ui_playmenu_newgame_options_buytime : "Buy Time"
+#ui_playmenu_newgame_options_startingcash : "Starting Money" // gone with cash as internal game goes with that, at least in GO
+#ui_playmenu_newgame_options_deathcamtype : "Death-cam Type" // selection box increments
+#ui_playmenu_newgame_options_deathcamtype_spectateanyone : "Spectate Anyone"
+#ui_playmenu_newgame_options_deathcamtype_spectateteamonly : "Spectate Team Only"
+#ui_playmenu_newgmae_options_deathcamtype_onlyfirstperson : "Only First-person"
+#ui_playmenu_newgame_options_fadetoblack : "Disable chase cam (death cam)"
+#ui_playmenu_newgame_options_disablefreezecam : "Disable Freeze Cam (death cam)"
+#ui_playmenu_newgame_options_punishtk : "Punish TKers (Kill on roundstart?)"
+#ui_playmenu_newgame_options_punishtk_kick : "Kick TKers / Hostage Killers"
+#ui_playmenu_newgame_options_punishhk_max : "Number of Hostage Kills to Kick"
+#ui_playmenu_newgame_options_allowfl : "Allow flashlight"
+#ui_playmenu_launchds_dsnotfound : "Could not find Source Dedicated Server."
+#ui_playmenu_directconnectmenu_go : "GO!"
+#ui_playmenu_directconnectmenu_box : "Server IP & Port"
+#ui_playmenu_directconnectmenu_close : "X"
+#ui_playmenu_botgame_cpuoptions : "CPU Players"
+#ui_playmenu_botgame_difficulty : "BOT Skill"
+#ui_playmenu_botgame_difficulty_0 : "Easy"
+#ui_playmenu_botgame_difficulty_1 : "Normal"
+#ui_playmenu_botgame_difficulty_2 : "Professional"
+#ui_playmenu_botgame_difficulty_3 : "Expert"
+#ui_playmenu_botgame_weapons_class0 : "Pistols"
+#ui_playmenu_botgame_weapons_class1 : "Shotguns"
+#ui_playmenu_botgame_weapons_class2 : "Submachine Guns"
+#ui_playmenu_botgame_weapons_class3 : "Rifles"
+#ui_playmenu_botgame_weapons_class4 : "LMGS"
+#ui_playmenu_botgame_weapons_class5 : "Grenade"
+#ui_playmenu_botgame_misc_prefix : "BOT Prefix: "
+#ui_playmenu_botgame_misc_prefix_default : "BOT"
+#ui_playmenu_botgame_misc_shieldifavaiable : "Shield" // never used, can be enabled though dev options
+#ui_playmenu_botgame_misc_chatter : "BOT Chatter" // selection box
+#ui_playmenu_botgame_misc_chatter_0 : "Off"
+#ui_playmenu_botgame_misc_chatter_1 : "Minimal"
+#ui_playmenu_botgame_misc_chatter_2 : "Radio Only"
+#ui_playmenu_botgame_misc_chatter_3 : "Standard"
+#ui_playmenu_langame_string_lanauth : "Lan Authentication"
+#ui_playmenu_langame_misc_svlan_0 : "Disable LAN authentication (VAC, SteamID Verification)"
+#ui_playmenu_langame_misc_svlan_1 : "Enable LAN authentication (VAC, SteamID Verification)"
+#ui_playmenu_langame_string_config : "Config"
